@@ -1,0 +1,14 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+#手动文件新增的一个测试Bundle
+test:
+    resource: '@TestBundle/Controller'
+    ##类型：注释
+    type:     annotation
+    prefix:    /
+#通过命令行新增的测试Bundle
+acme_test:
+    resource: "@AcmeTestBundle/Controller/"
+    type:     annotation
+    prefix:   /
