@@ -18,7 +18,8 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new AppBundle\AppBundle(),
             new TestBundle\TestBundle(),//手动文件新增的一个测试Bundle
-            new Acme\TestBundle\AcmeTestBundle(),//通过命令行新增的测试Bundle
+            new Acme\TestBundle\AcmeTestBundle(),//通过命令行新增的测试Bundle,
+            new AdvertisingBundle\AdvertisingBundle(),//新增的广告位模块
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

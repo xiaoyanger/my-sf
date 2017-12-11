@@ -12,3 +12,8 @@ acme_test:
     resource: "@AcmeTestBundle/Controller/"
     type:     annotation
     prefix:   /
+#新增的模快广告模快
+advertising:
+    resource: "@AdvertisingBundle/Resources/config/routing.php"
+    prefix:   /
+
